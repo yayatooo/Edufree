@@ -1,8 +1,8 @@
-import { FC } from "react";
-import { H3 } from "./headings";
-import { Link } from "./Link";
-import { Paragraph } from "./Paragraph";
-import styles from "./TechnologyGridItem.module.css";
+import { FC } from 'react';
+import { H3 } from './headings';
+import { Link } from './Link';
+import { Paragraph } from './Paragraph';
+import styles from './TechnologyGridItem.module.css';
 
 type TechnologyGridItemProps = {
   name: string;

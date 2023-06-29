@@ -1,8 +1,8 @@
-import { FC } from "react";
-import { Technology } from "../technologies";
-import { classNames } from "../utils/class-names";
-import styles from "./TechnologyGrid.module.css";
-import { TechnologyGridItem } from "./TechnologyGridItem";
+import { FC } from 'react';
+import { Technology } from '../technologies';
+import { classNames } from '../utils/class-names';
+import styles from './TechnologyGrid.module.css';
+import { TechnologyGridItem } from './TechnologyGridItem';
 
 type TechnologyGridProps = {
   technologies: Technology[];

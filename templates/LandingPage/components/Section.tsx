@@ -1,8 +1,8 @@
-import { ComponentProps, FC } from "react";
-import { classNames } from "../utils/class-names";
-import styles from "./Section.module.css";
+import { ComponentProps, FC } from 'react';
+import { classNames } from '../utils/class-names';
+import styles from './Section.module.css';
 
-export const Section: FC<ComponentProps<"section">> = ({
+export const Section: FC<ComponentProps<'section'>> = ({
   className,
   children,
   ...props

@@ -1,8 +1,8 @@
-import { ComponentProps, FC } from "react";
-import { classNames } from "../utils/class-names";
-import styles from "./Container.module.css";
+import { ComponentProps, FC } from 'react';
+import { classNames } from '../utils/class-names';
+import styles from './Container.module.css';
 
-type ContainerProps = ComponentProps<"div"> & {
+type ContainerProps = ComponentProps<'div'> & {
   wide?: boolean;
   center?: boolean;
 };

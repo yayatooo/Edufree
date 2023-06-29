@@ -16,5 +16,5 @@ export const classNames = (
         return className;
       }
     })
-    .join(" ");
+    .join(' ');
 };

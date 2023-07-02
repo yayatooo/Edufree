@@ -25,7 +25,7 @@ const BlogCard = () => {
                         <p className='laptop:text-[16px] text-gray-500 mobile:text-sm'>{data.date}</p>
                         <h2 className='font-semibold laptop:text-xl py-4 mobile:text-base'>{data.title}</h2>
                         <p className='laptop:text-[16px] text-gray-500 flex flex-wrap pb-6 mobile:text-sm'>{data.description}</p>
-                        <button className='flex'>Selengkapnya<img src='./arrow-right.svg' /></button>
+                        <button className='flex'>Selengkapnya<Image src='./arrow-right.svg' alt='arrow-right' width={35} height={35} /></button>
                     </div>
                 </div>
             </div> 

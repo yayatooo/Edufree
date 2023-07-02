@@ -1,14 +1,15 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import Hero from '@/components/Hero';
-import BenefitSection from '@/components/BenefitSection';
-import AboutUs from '@/components/AboutUs';
-import Course from '@/components/Course';
-import Testimonies from '@/components/Testimonies';
-import FaqSection from '@/components/FaqSection';
-import LoginSection from '@/components/LoginSection';
-import BlogSection from '@/components/BlogSection';
-import FooterSection from '@/components/FooterSection';
+import Hero from '@/pages/components/Hero';
+import BenefitSection from '@/pages/components/BenefitSection';
+import AboutUs from '@/pages/components/AboutUs';
+import Course from '@/pages/components/Course';
+import Testimonies from '@/pages/components/Testimonies';
+import FaqSection from '@/pages/components/FaqSection';
+import LoginSection from '@/pages/components/LoginSection';
+import BlogSection from '@/pages/components/BlogSection';
+import FooterSection from '@/pages/components/FooterSection';
+import Navbar from '@/pages/components/Navbar';
 
 const Index: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Index: NextPage = () => {
         />
       </Head>
       <main>
+        <Navbar />
         <Hero />
         <BenefitSection />
         <AboutUs />

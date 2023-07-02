@@ -5,7 +5,7 @@ import CourseCard from './CourseCard'
 
 const Course = () => {
   return (
-    <section className='laptop:py-12 laptop:px-20 w-full mobile:p-8'>
+    <section className='laptop:py-12 laptop:px-20 w-full mobile:p-8 desktop:px-32'>
         <div className='flex laptop:justify-between laptop:py-8 laptop:border-b-4 border-[#ECECF1] mobile:flex-col laptop:flex-row'>
             <h1 className='font-poppins text-4xl font-semibold leading-normal laptop:w-4/12 mobile:w-full mobile:text-2xl text-center mobile:py-4'>Rekomendasi Kursus Untuk Kamu</h1>
             <div className='flex items-center gap-x-10 mobile:justify-center'>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Button from '@/utility/Button';
 import Image from 'next/image';
 import Partners from './Partners';
@@ -7,8 +6,7 @@ import Partners from './Partners';
 const Hero = () => {
   return (
     <>
-      <Navbar />
-      <section className="bg-blue-primary flex w-full laptop:py-20 laptop:px-12 justify-between mobile:flex-col mobile:py-10 mobile:px-6 laptop:flex-row">
+      <section className="bg-blue-primary flex w-full laptop:py-28 laptop:px-12 justify-between mobile:flex-col mobile:py-32 mobile:px-6 laptop:flex-row desktop:px-32 desktop:py-32">
         <div className="w-6/12 mobile:w-full laptop:w-6/12">
           <h1 className="font-semibold text-[48px] text-white font-poppins mobile:text-3xl mobile:text-center laptop:text-start laptop:text-[48px] laptop:leading-normal">
             Bangun dan Wujudkan Cita Bersama EDUFREE

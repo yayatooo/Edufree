@@ -4,7 +4,7 @@ import React from 'react'
 const Testimonies = () => {
   return (
     <section className='py-20'>
-        <div className='bg-gray-primary font-poppins flex laptop:p-20 gap-x-16 mobile:p-10 mobile:flex-col laptop:flex-row '>
+        <div className='bg-gray-primary font-poppins flex laptop:p-20 gap-x-16 mobile:p-10 mobile:flex-col laptop:flex-row desktop:px-32'>
             <div className='laptop:w-4/12 mobile:w-full mobile:text-xl'>
                 <h1 className='font-semibold laptop:text-3xl pb-4 mobile:text-2xl mobile:text-center laptop:text-start'>Kata Mereka Tentang Kursus EDUFREE</h1>
                 <p className='text-gray-400 laptop:w-10/12 laptop:text-lg mobile:text-sm mobile:text-center mobile:w-full laptop:text-start'>EDUFREE telah dipercaya lebih dari 10.000 siswa</p>

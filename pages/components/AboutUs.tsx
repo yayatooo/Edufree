@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <section className='flex laptop:py-12 laptop:px-20 w-full mobile:p-8 mobile:flex-col laptop:flex-row'>
+    <section className='flex laptop:py-12 laptop:px-20 w-full mobile:p-8 mobile:flex-col laptop:flex-row desktop:px-32'>
       <div className='font-poppins laptop:w-6/12 flex flex-col justify-center mobile:w-full mobile:text-center laptop:text-start'>
         <p className='text-xl text-black font-light'>Tentang Kami</p>
         <h1 className='laptop:text-4xl font-semibold text-black leading-normal py-4 mobile:text-2xl'>EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</h1>

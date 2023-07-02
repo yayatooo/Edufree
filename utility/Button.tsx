@@ -4,7 +4,7 @@ type ButtonProps = {
 
 const Button = ({ children }: ButtonProps) => {
   return (
-    <button className="py-3 px-8 rounded-xl bg-yellow-primary text-black-primary font-semibold">
+    <button className="px-8 py-4 font-poppins rounded-lg bg-yellow-primary text-black-primary font-semibold">
       {children}
     </button>
   );

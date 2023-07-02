@@ -7,7 +7,7 @@ import Link from 'next/link'
 const FooterSection = () => {
   return (
     <>
-    <section className='w-full flex justify-between laptop:flex-row bg-blue-primary laptop:pt-12 laptop:px-20 laptop:pb-0 font-poppins text-white mobile:p-8 mobile:flex-col mobile:gap-y-8 mobile:text-center laptop:text-start'>
+    <section className='w-full flex justify-between laptop:flex-row bg-blue-primary laptop:pt-12 laptop:px-20 laptop:pb-0 font-poppins desktop:px-32 text-white mobile:p-8 mobile:flex-col mobile:gap-y-8 mobile:text-center laptop:text-start'>
         <div className='flex flex-col gap-y-20'>
             <div className='mobile:w-full mobile:py-4'>
                 <Image src="./EDUFREE.svg" alt="logo Web Site" width={128} height={34} className='mobile:mx-auto mobile:py-4 laptop:mx-0'/>
@@ -59,7 +59,7 @@ const FooterSection = () => {
             </ul>
     </div>
     </section>
-    <section className='bg-white flex justify-between px-12 py-4 font-poppins text-black text-lg font-medium mobile:flex-col laptop:flex-row'>
+    <section className='bg-white flex justify-between px-12 py-4 font-poppins text-black text-lg font-medium mobile:flex-col laptop:flex-row desktop:px-32'>
         <div className='mobile:py-4'>
             <h1>© Copyright EDUFREE 2022 - 2023 by Rahmat Hidayat</h1>
         </div>

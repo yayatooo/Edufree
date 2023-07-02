@@ -4,7 +4,7 @@ import { courseCards } from '@/libs/CourseCardData'
 
 const CourseCard = () => {
   return (
-    <section className='w-full flex laptop:gap-x-12 justify-center mobile:gap-x-10 mobile:flex-col mobile:items-center laptop:flex-row'
+    <section className='w-full flex laptop:gap-x-12 justify-center mobile:gap-x-10 mobile:flex-col mobile:items-center laptop:flex-row desktop:px-32'
             >
             {courseCards.map((data, index) => {
                 return (

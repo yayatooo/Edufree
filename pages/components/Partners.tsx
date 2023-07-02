@@ -32,7 +32,7 @@ const Sponsors: SponsorsProps[] = [
 const Partners = () => {
   return (
     <>
-      <section className="flex w-full bg-[#EEF4FA] laptop:py-24 laptop:px-12 justify-between gap-y-8 mobile:flex-col mobile:p-4 laptop:flex-row">
+      <section className="flex w-full bg-[#EEF4FA] laptop:py-24 laptop:px-12 justify-between gap-y-8 mobile:flex-col mobile:p-4 laptop:flex-row desktop:px-32">
         <div className="flex gap-x-10">
           <div>
             <h1 className="font-semibold text-3xl font-poppins mobile:text-2xl">21.000+</h1>

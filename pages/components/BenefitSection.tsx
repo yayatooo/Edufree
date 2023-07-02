@@ -41,7 +41,7 @@ const cardBenefits: CardBenefitsProps[] = [
 
 const BenefitSection = () => {
   return (
-    <section className="w-full laptop:py-20 laptop:px-12 bg-white-primary mobile:py-10 mobile:px-6">
+    <section className="w-full laptop:py-20 laptop:px-12 bg-white-primary mobile:py-10 mobile:px-6 desktop:px-32">
       <h1 className="font-semibold laptop:text-4xl laptop:w-6/12 mx-auto px-4 font-poppins text-center leading-normal py-8 mobile:text-3xl mobile:w-full">
         Keuntungan Bergabung Dengan E-Learning EDUFREE
       </h1>
